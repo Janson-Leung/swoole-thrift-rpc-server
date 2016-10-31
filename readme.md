@@ -51,4 +51,4 @@
 ## 编码说明
 
   1. 服务端的服务实现代码则需要继承xxxxIf接口实现代码
-  2. 连接、接收由swoole接管，thrift处理主要在swoole receive回调中
+  2. 连接、接收、发送由swoole接管，thrift处理主要在swoole receive回调中
